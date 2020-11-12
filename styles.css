@@ -128,6 +128,7 @@ background:none;
 display: inline;
 padding-left: 400px;
 padding-bottom: 30px;
+padding-right: 0px;
 }
 
 
@@ -155,6 +156,7 @@ padding-bottom: 30px;
     
     }
     
+    /* didnt do anything */
     #pContact{
         padding-left: 0px;
         margin-left: auto;
@@ -166,7 +168,8 @@ padding-bottom: 30px;
 }
 
 #pContact {
-padding-left: 150px;
+    /* was 150 */
+padding-left: 0px;
     
 }
 
