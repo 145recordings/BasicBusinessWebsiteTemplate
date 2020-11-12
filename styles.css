@@ -6,9 +6,6 @@ body {
     
 }
 
-*{
- outline: 1px solid red;
-}
 
 #container {
     background-color: #b8d5ce;
