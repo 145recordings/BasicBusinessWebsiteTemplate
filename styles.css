@@ -1,9 +1,9 @@
-html, body {padding:0; margin:0; height:100%;}
+html, body {padding:0px; margin:0px;width: 100%;}
 
 body {
     font-family: "calibri", "times new roman";
     overflow-x: hidden;
-    width: 100vw;
+    
 }
 
 #container {
