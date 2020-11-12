@@ -1,0 +1,176 @@
+html, body {padding:0; margin:0; height:100%;}
+
+body {
+    font-family: "calibri", "times new roman";
+    overflow-x: hidden;
+}
+
+#container {
+    background-color: #b8d5ce;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    width: 100vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+#header img {
+    float: inherit;
+    width: 50px;
+    height: 50px;
+    margin-bottom: -5px;
+}
+
+#header h1 {
+    position: relative;
+    right: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#about {
+    background-image: url(How-to-regenerate-cannabis-plants-SensiSeeds-1-3-scaled.jpg);
+    background-color: darkgray;
+    background-blend-mode: multiply;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 75px;
+    padding-bottom: 20px;
+    margin: 0;
+    color: white;
+    font-size: 2.5vw;
+    
+    text-align: left;
+    position: ;
+}
+
+#intro {
+    padding-left: 300px;
+    
+}
+
+#content {
+    padding: 40px 40px 0px 0px;
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px 4px 75px;
+    
+}
+
+.column {
+    flex: 50%;
+    padding: 0px 4px 4px 4px;
+    text-align: center;
+}
+
+.column img {
+    padding-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: middle;
+    max-width: 75%;
+
+
+}
+
+#contact {
+    width: 100vw;
+    position: relative;
+    background-color: #8abaae;
+    margin: 0;
+    padding: 0;
+    vertical-align: center;
+}
+
+
+h3 {
+    text-align: center;
+    color: black;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+#contactbox {
+    display: flex;
+    flex: 50%;
+    flex-wrap: wrap;
+    width: 100vw;
+
+
+}
+
+.mapouter {
+    position:relative;
+    height:300px;
+    width:500px;
+    background:none;
+    display: inline;
+    padding-left: 400px;
+    padding-bottom: 30px;
+
+}
+
+@media screen and (orientation:portrait) {
+    /* Portrait styles */
+    .mapouter{
+        padding-left: 0px;
+    }
+}
+
+#pContact {
+padding-left: 150px;
+    
+}
+
+#pContact b {
+    font-size: 30px;
+    
+}
+
+#address {
+    display: inline-block;
+    list-style-type: none;
+   
+}
+
+
+#hours {
+    display: inline-block;
+    vertical-align: middle;
+    list-style-type: circle;
+}
+
+#footer {
+    background-color: black;
+    text-align: center;
+    clear: both;
+    color: white;
+    
+    
+    position: absolute;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+}
