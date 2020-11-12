@@ -3,6 +3,7 @@ html, body {padding:0; margin:0; height:100%;}
 body {
     font-family: "calibri", "times new roman";
     overflow-x: hidden;
+    width: 100%;
 }
 
 #container {
@@ -122,21 +123,27 @@ h3 {
 }
 
 .mapouter {
-    position:relative;
-    height:300px;
-    width:500px;
-    background:none;
-    display: inline;
-    padding-left: 400px;
-    padding-bottom: 30px;
-
+position:relative;
+background:none;
+display: inline;
+padding-left: 400px;
+padding-bottom: 30px;
 }
+
+
+
+
 
 @media screen and (orientation:portrait) {
     /* Portrait styles */
-    .mapouter{
+    .mapouter {
         padding-left: 0px;
+        
     }
+    
+
+    
+    
 }
 
 #pContact {
