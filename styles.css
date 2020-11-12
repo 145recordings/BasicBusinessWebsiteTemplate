@@ -138,8 +138,15 @@ padding-bottom: 30px;
     /* Portrait styles */
     .mapouter {
         padding-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
         
     }
+    .mapouter iframe {
+    height: 200px;
+    width: 300px;
+    resize: both;
+}
     
     #intro {
     padding-left: 0px;
